@@ -12,6 +12,10 @@ import ctaInteriorImg from '../assets/images/cta_luxury_interior_1795113789926.j
 import journalMaterialsImg from '../assets/images/journal_natural_materials_1795113756737.jpg';
 import journalBedroomImg from '../assets/images/journal_calm_bedroom_1795113756983.jpg';
 import journalDetailsImg from '../assets/images/journal_small_details_1795113756437.jpg';
+import carouselFoyerImg from '../assets/images/carousel_travertine_foyer_1795115305054.jpg';
+import carouselStudyImg from '../assets/images/carousel_library_study_1795115304295.jpg';
+import carouselSpaBathImg from '../assets/images/carousel_spa_bathroom_1795115303991.jpg';
+import carouselDiningImg from '../assets/images/carousel_courtyard_dining_1795115304183.jpg';
 
 export const HERO_MEDIA = {
   src: heroLivingImg,
@@ -198,6 +202,63 @@ export const PROJECTS: ProjectItem[] = [
       'A full-home architectural interior renovation celebrating raw mineral plaster walls, custom solid oak dining furniture, and courtyard daylight. Every threshold flows seamlessly from kitchen to terrace without visual noise.',
     materials: ['Mineral Limewash', 'Solid White Oak', 'Stoneware Ceramic', 'Brushed Bronze'],
     featured: true,
+  },
+];
+
+export interface CarouselSlide {
+  id: string;
+  title: string;
+  typology: string;
+  location: string;
+  caption: string;
+  image: string;
+  imageAlt: string;
+}
+
+export const PORTFOLIO_CAROUSEL: CarouselSlide[] = [
+  {
+    id: 'travertine-foyer',
+    title: 'Gallery Entry & Travertine Threshold',
+    typology: 'RESIDENTIAL FOYER',
+    location: 'Montecito, California',
+    caption:
+      'Fluted European oak pivot millwork and a monolithic honed travertine console greet natural morning light.',
+    image: carouselFoyerImg,
+    imageAlt:
+      'Serene residential entry foyer with sculpted honed travertine console, fluted oak pivot door, and limewash plaster walls',
+  },
+  {
+    id: 'walnut-study',
+    title: 'Private Walnut Library & Reading Study',
+    typology: 'ARCHITECTURAL STUDY',
+    location: 'Brooklyn Heights, New York',
+    caption:
+      'Floor-to-ceiling walnut shelving with warm concealed illumination framing a quiet courtyard garden view.',
+    image: carouselStudyImg,
+    imageAlt:
+      'Intimate architectural library and study with natural walnut bookshelves, bouclé lounge chair, and brass reading lamp',
+  },
+  {
+    id: 'spa-sanctuary',
+    title: 'Skylit Travertine Bath Sanctuary',
+    typology: 'PRIMARY SUITE BATH',
+    location: 'Aspen, Colorado',
+    caption:
+      'Carved limestone and travertine vessel paired with hand-waxed bronze fixtures under diffused skylight.',
+    image: carouselSpaBathImg,
+    imageAlt:
+      'Tranquil luxury spa bathroom with monolithic carved travertine soaking tub, fluted white oak vanity, and overhead skylight',
+  },
+  {
+    id: 'courtyard-dining',
+    title: 'Olive Courtyard Dining Pavilion',
+    typology: 'INDOOR · OUTDOOR DINING',
+    location: 'Napa Valley, California',
+    caption:
+      'Sheer Belgian linen drapery and wide limestone pavers dissolve the boundary between dining room and grove.',
+    image: carouselDiningImg,
+    imageAlt:
+      'Indoor-outdoor luxury dining pavilion with white oak table, woven linen chairs, and sheer drapery opening to olive trees',
   },
 ];
 
