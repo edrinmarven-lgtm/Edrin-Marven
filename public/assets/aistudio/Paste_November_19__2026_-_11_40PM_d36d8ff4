@@ -1,0 +1,1153 @@
+#
+
+Build a complete, premium, modern, fully responsive interior design website for a fictional interior design studio called **AURELLE STUDIO**. The website should be inspired by the visual direction of the provided reference image: warm minimalism, luxurious interiors, editorial typography, architectural layouts, soft neutral colors, elegant spacing, and high-end presentation.
+
+Do not copy the reference website’s brand, name, logo, exact text, or identity. Create a unique, original website that captures the same premium visual atmosphere while looking more polished, modern, refined, and ready for a real client.
+
+The final result must feel like a real interior architecture/design agency website — not a generic template, not a basic AI landing page, and not a starter project.
+
+## 1. CORE DESIGN DIRECTION
+
+Create a sophisticated luxury interior design website using a design language based on:
+
+- Warm minimalism
+- Contemporary luxury
+- Architectural editorial layouts
+- Scandinavian-inspired simplicity
+- Natural materials and textures
+- Premium magazine-style typography
+- Carefully balanced white space
+- High-quality interior photography
+- Subtle gold and bronze accents
+- Clean grid layouts
+- Refined asymmetry
+
+The site should feel calm, expensive, tasteful, and professionally art-directed.
+
+Avoid:
+
+- Bright saturated colors
+- Excessive gradients
+- Glassmorphism
+- Overly rounded UI elements
+- Excessive animations
+- Generic stock website layouts
+- Cartoon icons
+- Cheap-looking shadows
+- Cluttered sections
+- Oversized unnecessary UI elements
+
+Use elegant, intentional design decisions throughout the entire website.
+
+---
+
+## 2. BRAND IDENTITY
+
+Create the fictional brand:
+
+**AURELLE STUDIO**
+
+Brand description:
+
+A premium interior design studio specializing in residential interiors, commercial spaces, kitchen design, bedroom styling, space planning, and bespoke interior experiences.
+
+Brand personality:
+
+- Elegant
+- Warm
+- Professional
+- Creative
+- Trustworthy
+- Architectural
+- Timeless
+- Detail-oriented
+
+Logo direction:
+
+Create a minimal typographic logo with the words:
+
+AURELLE
+STUDIO
+
+Use a refined uppercase wordmark with subtle letter spacing. Add a minimal abstract architectural symbol inspired by geometric building lines or a floor-plan shape.
+
+The logo should be original, minimal, elegant, and recognizable. Use text and simple SVG/CSS shapes instead of relying on a random image logo.
+
+---
+
+## 3. COLOR PALETTE
+
+Use the following carefully balanced palette throughout the website:
+
+- Warm ivory: `#F5F2EC`
+- Cream: `#EAE4DA`
+- Soft beige: `#D6C8B7`
+- Sand: `#C2AE98`
+- Taupe: `#A69783`
+- Warm gray: `#827B73`
+- Deep charcoal: `#1C1B19`
+- Dark espresso: `#302922`
+- Muted bronze: `#A58A62`
+- White: `#FFFFFF`
+
+Color usage:
+
+- Main background: warm ivory and off-white
+- Alternate section backgrounds: cream and pale beige
+- Main text: charcoal or espresso
+- Secondary text: warm gray
+- Small accent lines: muted bronze
+- Buttons: charcoal with ivory text
+- Footer: deep charcoal or espresso
+- Borders: soft beige-gray
+
+Do not use pure white for every section. Maintain the warm premium atmosphere.
+
+---
+
+## 4. TYPOGRAPHY SYSTEM
+
+Use a sophisticated combination of serif and sans-serif typography.
+
+Recommended Google Fonts:
+
+- Headings: `Cormorant Garamond` or `Playfair Display`
+- Body text: `Manrope` or `DM Sans`
+
+Typography direction:
+
+- Large elegant serif headlines
+- Refined thin-to-medium font weights
+- Modern sans-serif navigation
+- Small uppercase labels with letter spacing
+- Clear contrast between headings and descriptions
+- Spacious line heights
+- Editorial-style typography
+
+Font hierarchy:
+
+- Hero heading: 76–100px desktop, depending on layout
+- Main section headings: 48–64px desktop
+- Card headings: 22–28px
+- Body text: 15–18px
+- Small labels: 10–13px uppercase with letter spacing of 1.5–2.5px
+- Navigation: 11–13px uppercase
+
+Use responsive typography with `clamp()` so headings scale smoothly between screen sizes.
+
+Example headline style:
+
+"Spaces Designed
+Around the Way
+You Live."
+
+Make typography feel like a luxury interior design magazine.
+
+---
+
+## 5. HEADER & NAVIGATION
+
+Build a premium, minimal header positioned at the top of the website.
+
+Desktop layout:
+
+- Left: AURELLE STUDIO logo
+- Center/right: navigation menu
+- Far right: Contact/Book Consultation CTA
+
+Navigation items:
+
+- Home
+- Studio
+- Services
+- Projects
+- Journal
+- Contact
+
+Header styling:
+
+- Background: warm ivory
+- Height: approximately 84–100px
+- Horizontal padding: generous
+- Thin subtle bottom border
+- Navigation text uppercase, small, and evenly spaced
+- Logo left aligned
+- CTA styled as a small elegant outlined or dark button
+- Active navigation item indicated by a subtle bronze underline
+
+Header behavior:
+
+- Initially transparent or ivory depending on contrast with hero
+- On scroll, smoothly transition to a slightly opaque ivory background
+- Add a subtle shadow or bottom border after scrolling
+- Sticky header behavior
+- Smooth anchor navigation
+- No excessive animations
+
+Mobile header:
+
+- Logo on left
+- Hamburger menu on right
+- Accessible expandable menu
+- Full-width mobile navigation panel
+- Menu closes when a navigation item is clicked
+- Prevent horizontal overflow
+
+---
+
+## 6. HERO SECTION
+
+Create a visually striking, premium hero section with an editorial asymmetric layout.
+
+Desktop composition:
+
+- Full-width hero with two major columns
+- Left column approximately 38–43% width
+- Right column approximately 57–62% width
+- Hero height approximately 620–760px
+- The right side contains a large cinematic interior image
+- The left side has text on a warm ivory background
+- Image should extend close to the edges of the hero
+- The overall composition should look like an interior design editorial
+
+Hero left content:
+
+Small label:
+
+"INTERIOR DESIGN · SPACES · LIFESTYLE"
+
+Headline:
+
+"Where Beauty
+Meets Everyday
+Living."
+
+Supporting text:
+
+"We create thoughtfully designed interiors that bring comfort, character, and quiet sophistication to the spaces you call home."
+
+Primary CTA:
+
+"EXPLORE OUR WORK"
+
+Secondary CTA:
+
+"DISCOVER THE STUDIO"
+
+Add a subtle bronze horizontal line above the small label.
+
+Add an elegant small arrow icon to the primary CTA.
+
+Hero image:
+
+Generate or source an exceptionally high-quality, photorealistic interior image featuring:
+
+- Contemporary luxury living room
+- Large cream-colored modular sofa
+- Natural walnut wood
+- Warm stone surfaces
+- Sculptural coffee table
+- Neutral beige upholstery
+- Soft daylight entering from tall windows
+- Minimal contemporary art
+- Indoor plants used sparingly
+- Architectural lighting
+- Realistic shadows
+- Warm and natural atmosphere
+
+The image must look like a photograph taken for a luxury architecture magazine.
+
+Image treatment:
+
+- Natural composition
+- Soft contrast
+- Warm color grading
+- No visible text
+- No watermark
+- No artificial-looking CGI
+- No people
+
+Add a small floating editorial caption in the lower corner of the hero image:
+
+"01 — THE ART OF LIVING"
+
+Keep the caption subtle, elegant, and readable.
+
+Do not use a generic image placeholder. Generate or automatically provide actual high-quality images.
+
+---
+
+## 7. TRUST & DESIGN PHILOSOPHY STRIP
+
+Immediately below the hero, create a horizontal strip containing four design principles.
+
+This section should be approximately 100–130px tall on desktop.
+
+Use a subtle background slightly different from the hero.
+
+Create four evenly spaced items with thin dividers between them.
+
+Each item includes a minimal line icon, uppercase title, and short description.
+
+Item 1:
+
+Title: BESPOKE DESIGN
+
+Description: Spaces shaped around your lifestyle.
+
+Item 2:
+
+Title: THOUGHTFUL DETAILS
+
+Description: Every finish, texture and detail considered.
+
+Item 3:
+
+Title: BALANCED LIVING
+
+Description: Beauty designed with everyday function.
+
+Item 4:
+
+Title: COMPLETE SERVICE
+
+Description: From the first idea to the final detail.
+
+Icons:
+
+Use minimal architectural line icons, preferably Lucide icons or custom SVGs. Use bronze stroke color and avoid filled cartoon illustrations.
+
+---
+
+## 8. SERVICES SECTION
+
+Create a premium services section with the heading:
+
+Small label:
+
+"WHAT WE DO"
+
+Main heading:
+
+"Spaces That Feel
+Distinctly Yours."
+
+Supporting paragraph:
+
+"From a single room to an entire property, we bring thoughtful design, refined materials, and practical planning together to create spaces that feel naturally yours."
+
+Create a four-card grid.
+
+Desktop:
+
+- Two columns
+- Two rows
+- Cards approximately 1:1.2 aspect ratio or balanced editorial image/text layout
+- 24–32px spacing
+- Images at the top or filling most of each card
+- Text below images
+- Clean alignment
+
+Tablet:
+
+- Two columns
+
+Mobile:
+
+- One column
+
+### SERVICE CARD 1 — RESIDENTIAL INTERIORS
+
+Title:
+
+"Residential Interiors"
+
+Description:
+
+"Warm, timeless interiors designed to make everyday living feel extraordinary."
+
+Image:
+
+Generate a photorealistic luxury living room with neutral furniture, natural oak, warm linen, textured walls, elegant styling, natural daylight, and architectural composition.
+
+### SERVICE CARD 2 — COMMERCIAL SPACES
+
+Title:
+
+"Commercial Design"
+
+Description:
+
+"Purposeful environments that express your brand and welcome your customers."
+
+Image:
+
+Generate a luxury modern office or boutique workspace with walnut cabinetry, clean desks, warm ambient lighting, architectural shelving, sophisticated neutral tones, and a refined business atmosphere.
+
+### SERVICE CARD 3 — KITCHEN DESIGN
+
+Title:
+
+"Kitchen Design"
+
+Description:
+
+"Beautifully considered kitchens that bring functionality and refined materials together."
+
+Image:
+
+Generate a modern luxury kitchen with warm oak cabinets, stone countertops, minimalist hardware, elegant island, integrated appliances, and soft pendant lighting.
+
+### SERVICE CARD 4 — SPACE PLANNING
+
+Title:
+
+"Space Planning"
+
+Description:
+
+"Smart layouts that make every corner feel intentional and effortless."
+
+Image:
+
+Generate a refined bedroom or architectural interior featuring balanced furniture placement, warm neutral tones, natural materials, soft lighting, and excellent spatial composition.
+
+Card design:
+
+- Minimal corner radius or nearly square corners
+- Image aspect ratio approximately 16:10
+- Small bronze line icon in a subtle circular background
+- Uppercase small category label
+- Serif card heading
+- Small arrow icon
+- Hover effect: image scales slightly, arrow moves subtly
+- Soft transition of 300–500ms
+- No heavy shadow
+- No giant rounded cards
+
+Each card should be clickable and have a meaningful destination, service detail page, or scroll target.
+
+---
+
+## 9. FEATURED PROJECTS / PORTFOLIO
+
+Create a premium portfolio section with an editorial layout.
+
+Small label:
+
+"SELECTED WORK"
+
+Main heading:
+
+"Spaces With a Story."
+
+Supporting copy:
+
+"A collection of thoughtfully crafted interiors, each shaped by its architecture, its people, and the way life unfolds within."
+
+Display three featured projects using a varied grid:
+
+- One large horizontal image
+- Two smaller supporting images
+- Asymmetric editorial arrangement
+
+Project 1:
+
+Name: The Linden Residence
+
+Category: RESIDENTIAL · 2026
+
+Image: Luxury contemporary living room with neutral palette, natural oak, textured stone, cream sofa, warm lighting, and soft architectural details.
+
+Project 2:
+
+Name: Oak & Form Workspace
+
+Category: COMMERCIAL · 2026
+
+Image: Modern warm-toned office with elegant wood cabinetry, minimal desks, shelving, and architectural lighting.
+
+Project 3:
+
+Name: The Quiet House
+
+Category: FULL HOME DESIGN · 2026
+
+Image: Luxury minimalist home interior with warm beige walls, natural materials, soft daylight, and refined furniture.
+
+Portfolio styling:
+
+- Large photographic images
+- No borders around images
+- Project name below image
+- Small uppercase category label
+- Subtle arrow
+- Clean spacing
+- Hover image zoom of approximately 1.03
+- Smooth transitions
+- No distracting effects
+
+CTA below projects:
+
+"VIEW ALL PROJECTS"
+
+---
+
+## 10. DESIGN PROCESS SECTION
+
+Create a clean, elegant section describing the design journey.
+
+Small label:
+
+"OUR APPROACH"
+
+Main heading:
+
+"From First Ideas
+to Finished Spaces."
+
+Create four horizontal steps with elegant numbered indicators.
+
+01 — DISCOVER
+
+"We begin by understanding your needs, lifestyle, vision, and the way you want your space to feel."
+
+02 — CONCEPT
+
+"We develop a thoughtful design direction, combining inspiration, materials, layouts, and visual ideas."
+
+03 — REFINE
+
+"Every detail is carefully developed, from finishes and furniture to lighting and spatial flow."
+
+04 — COMPLETE
+
+"We bring the vision together with a considered final design and a clear path to implementation."
+
+Design:
+
+- Warm beige background
+- Thin bronze line connecting steps on desktop
+- Large serif numbers
+- Small uppercase titles
+- Short descriptions
+- Minimal visual clutter
+
+Mobile:
+Stack the steps vertically with a subtle vertical line connecting the numbers.
+
+---
+
+## 11. ABOUT THE STUDIO
+
+Create an elegant split-layout about section.
+
+Left:
+
+A large photorealistic image of a designer's material selection table featuring:
+
+- Natural stone samples
+- Oak and walnut samples
+- Fabric swatches
+- Architectural sketches
+- Design books
+- Soft daylight
+- A sophisticated warm palette
+
+Right:
+
+Small label:
+
+"THE STUDIO"
+
+Headline:
+
+"Good Design Is Felt,
+Not Just Seen."
+
+Body:
+
+"We believe the most meaningful spaces are those that quietly improve the way you live. Our approach combines architectural thinking, thoughtful materials, and a deep appreciation for detail — creating interiors that feel beautiful, practical, and personal."
+
+"We design with intention, balance, and a lasting sense of warmth."
+
+CTA:
+
+"MORE ABOUT OUR STUDIO"
+
+The layout should feel spacious and editorial.
+
+---
+
+## 12. MATERIALS & DESIGN DETAILS SECTION
+
+Create a visual section highlighting the studio's appreciation for natural materials.
+
+Use a large background image or a horizontal collage of close-up material photography:
+
+- Travertine stone
+- Natural oak grain
+- Linen fabric
+- Brushed brass
+- Handmade ceramics
+- Soft architectural shadows
+
+Overlay text:
+
+"Materiality. Texture. Light."
+
+Supporting line:
+
+"The smallest details often make the biggest difference."
+
+Use a refined layout with minimal text.
+
+Images should feel tactile, artistic, premium, and realistic.
+
+Do not create a cluttered collage. Use a controlled grid with consistent image treatment.
+
+---
+
+## 13. TESTIMONIAL SECTION
+
+Create a sophisticated testimonial section with an ivory background.
+
+Small label:
+
+"CLIENT EXPERIENCES"
+
+Headline:
+
+"Designed Around Real Life."
+
+Display one featured testimonial at a time or create a clean three-card layout with subtle borders.
+
+Use realistic, fictional testimonials. Do not present them as verified real client reviews.
+
+Example:
+
+"We wanted a home that felt calm but still had personality. Every detail feels considered, and the space works beautifully for our everyday life."
+
+Name:
+
+"Emily R."
+
+Project:
+
+"Residential Interior"
+
+Second testimonial:
+
+"The process was thoughtful from start to finish. Our workspace now feels more welcoming, more functional, and much more aligned with our brand."
+
+Name:
+
+"Daniel M."
+
+Project:
+
+"Commercial Design"
+
+Third testimonial:
+
+"The design brought everything together in a way we couldn't have imagined ourselves. The balance of materials, lighting, and layout is exceptional."
+
+Name:
+
+"Sarah L."
+
+Project:
+
+"Full Home Design"
+
+Use small bronze quotation marks and elegant serif typography.
+
+Avoid fake star ratings and overly promotional language.
+
+---
+
+## 14. CALL-TO-ACTION SECTION
+
+Create a visually impactful CTA before the footer.
+
+Background:
+
+A full-width photorealistic image of a beautiful luxury interior with a subtle dark overlay.
+
+Image should show:
+
+- Warm architectural lighting
+- Neutral furnishings
+- Natural materials
+- A sophisticated living space
+- Cinematic atmosphere
+
+Text centered:
+
+"Let's Create a Space
+You'll Love Coming Home To."
+
+Supporting text:
+
+"Whether you're reimagining one room or planning a complete transformation, we'd love to hear what you're dreaming of."
+
+Primary CTA:
+
+"START YOUR PROJECT"
+
+Secondary text link:
+
+"OR GET IN TOUCH"
+
+CTA design:
+
+- Large elegant serif heading
+- White or ivory text
+- Minimal dark overlay
+- Button with ivory background and dark text
+- Subtle hover animation
+
+---
+
+## 15. CONTACT SECTION
+
+Create a polished contact section with two columns.
+
+Left column:
+
+Small label:
+
+"LET'S TALK"
+
+Heading:
+
+"Your Space.
+Your Story.
+Let's Begin."
+
+Supporting text:
+
+"Tell us a little about your project, and we'll be in touch to explore what's possible."
+
+Contact information:
+
+Email: [hello@aurellestudio.com](mailto\:hello@aurellestudio.com)
+
+Phone: +1 (555) 000-0000
+
+Location: Serving clients across the United States
+
+Right column:
+
+A professional contact form with:
+
+- Full name
+- Email address
+- Project type dropdown
+- Project location
+- Estimated budget dropdown
+- Message textarea
+- Submit button: "SEND PROJECT INQUIRY"
+
+Form requirements:
+
+- Modern but minimal design
+- Accessible field labels
+- Proper input validation
+- Responsive layout
+- Clear success message after submission
+- Clear error handling
+- Form must be functional, not decorative
+- If no backend is configured, create a clean frontend submission flow and clearly indicate where a real form backend or email service should be connected
+
+Do not create fake claims about form submissions actually reaching the studio.
+
+---
+
+## 16. JOURNAL / INSPIRATION SECTION
+
+Create a minimal editorial blog preview section.
+
+Small label:
+
+"FROM THE JOURNAL"
+
+Heading:
+
+"Notes on Thoughtful Living."
+
+Show three article cards:
+
+1. "The Beauty of Natural Materials"
+
+   Category: MATERIALS
+
+   Image: Close-up of natural travertine, linen, and oak in warm light.
+
+2. "Designing a Home That Feels Calm"
+
+   Category: INTERIOR LIVING
+
+   Image: A peaceful minimalist bedroom with natural light and warm neutral textures.
+
+3. "Small Details, Lasting Impact"
+
+   Category: DESIGN NOTES
+
+   Image: Close-up of a refined interior detail, brushed brass lighting, handcrafted ceramics, and natural stone.
+
+Each card:
+
+- Image
+- Category label
+- Article title
+- Date
+- Small arrow
+- Hover effect
+
+Keep the section clean and magazine-like.
+
+---
+
+## 17. FOOTER
+
+Build a premium, dark footer using deep charcoal or espresso.
+
+Footer layout:
+
+### Column 1 — BRAND
+
+AURELLE STUDIO
+
+"Thoughtful interiors. Beautifully lived in."
+
+Include a minimal architectural logo mark.
+
+### Column 2 — NAVIGATION
+
+- Home
+- Studio
+- Services
+- Projects
+- Journal
+- Contact
+
+### Column 3 — CONTACT
+
+[hello@aurellestudio.com](mailto\:hello@aurellestudio.com)
+
++1 (555) 000-0000
+
+Serving the United States and beyond
+
+### Column 4 — SOCIAL
+
+- Instagram
+- Pinterest
+- LinkedIn
+
+Use simple social icons.
+
+Bottom row:
+
+"© 2026 AURELLE STUDIO. ALL RIGHTS RESERVED."
+
+"PRIVACY POLICY"
+
+"TERMS OF SERVICE"
+
+Footer design:
+
+- Deep charcoal background
+- Ivory text
+- Bronze accents
+- Thin dividers
+- Elegant spacing
+- No clutter
+- Responsive column stacking on mobile
+
+---
+
+## 18. IMAGE GENERATION REQUIREMENTS
+
+This is extremely important.
+
+Automatically generate or source high-quality images for every section that requires photography.
+
+Do not use:
+
+- Empty image boxes
+- Broken images
+- Placeholder images
+- Generic colored rectangles
+- Lorem ipsum images
+- Repeated images throughout the website
+- Low-quality images
+- Watermarked images
+
+Create a consistent photography direction:
+
+Photographic style:
+
+- Photorealistic luxury interiors
+- Architectural photography
+- Natural daylight
+- Warm neutral color grading
+- Realistic materials
+- Editorial composition
+- High dynamic range
+- Sophisticated shadows
+- Natural textures
+- Minimal styling
+- High-end architecture magazine photography
+
+All images should have consistent color grading and a coherent visual identity.
+
+Use unique images for:
+
+- Hero living room
+- Residential design
+- Commercial design
+- Kitchen design
+- Space planning
+- Featured project 1
+- Featured project 2
+- Featured project 3
+- Studio/about section
+- Materials section
+- CTA background
+- Journal article 1
+- Journal article 2
+- Journal article 3
+
+If the platform supports AI image generation, generate the images automatically.
+
+If image generation is unavailable, use reliable image sources or image URLs that load correctly. Do not leave any empty image containers.
+
+Use `object-fit: cover`, proper image positioning, responsive sizing, and lazy loading for non-hero images.
+
+---
+
+## 19. ANIMATION & INTERACTION
+
+Add refined, performance-friendly motion throughout the website.
+
+### Scroll animations
+
+- Fade-in on section entry
+- Slight upward movement of 20–30px
+- Staggered animation for card grids
+- Smooth reveal of headings
+- Image fade transitions
+
+### Hover effects
+
+- Images scale subtly between 1.00 and 1.04
+- CTA arrows shift slightly right
+- Buttons smoothly change background and text color
+- Navigation underline animates
+- Portfolio images receive subtle zoom
+- Service cards slightly elevate only when appropriate
+
+### Scroll behavior
+
+- Smooth scrolling
+- Sticky header
+- Subtle active navigation state
+- No aggressive parallax
+- Avoid scroll-jacking
+
+### Motion rules
+
+- Use 300–700ms transitions
+- Use ease-in-out or cubic-bezier timing
+- Avoid bouncing animation
+- Avoid continuously moving objects
+- Respect `prefers-reduced-motion`
+
+The animations must improve the premium experience without distracting from the interiors.
+
+---
+
+## 20. RESPONSIVE DESIGN
+
+The website must be fully responsive and look professionally designed on every screen size.
+
+### Desktop — 1440px and above
+
+- Wide editorial layouts
+- Large hero photography
+- Maximum content width approximately 1380px
+- Generous margins
+- Two-column and asymmetric layouts
+- Four-column service/principle strip where appropriate
+
+### Laptop — 1024px to 1439px
+
+- Adjust hero proportions
+- Reduce headline size
+- Maintain image quality
+- Reduce section padding
+- Keep navigation clean
+
+### Tablet — 768px to 1023px
+
+- Two-column grids where possible
+- Simplified hero layout
+- Reduced typography
+- Comfortable spacing
+- Services remain visually balanced
+- Footer reorganizes
+
+### Mobile — 320px to 767px
+
+- One-column layouts
+- Compact navigation with accessible hamburger menu
+- Hero headline approximately 44–60px depending on width
+- Hero image placed beneath or alongside the text without crowding
+- Full-width CTA buttons where appropriate
+- Cards stacked vertically
+- Images must remain beautiful and correctly cropped
+- Section padding approximately 24px
+- Body text remains readable
+- No tiny text
+- No overlapping elements
+- No horizontal scrolling
+- Contact form fields full width
+- Footer stacked in a logical order
+
+Test the design mentally and technically at:
+
+- 320px
+- 375px
+- 390px
+- 430px
+- 768px
+- 1024px
+- 1280px
+- 1440px
+- 1920px
+
+---
+
+## 21. TECHNICAL IMPLEMENTATION
+
+Build the website using a modern, production-ready frontend stack supported by Google AI Studio.
+
+Preferred:
+
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide icons
+- Reusable components
+- Clean component architecture
+
+Organize the code logically.
+
+Suggested component structure:
+
+- Header
+- MobileNavigation
+- HeroSection
+- DesignPrinciples
+- ServicesSection
+- ServiceCard
+- PortfolioSection
+- PortfolioCard
+- ProcessSection
+- AboutSection
+- MaterialsSection
+- TestimonialsSection
+- CTASection
+- ContactSection
+- JournalSection
+- Footer
+
+Technical requirements:
+
+- Clean, maintainable code
+- Responsive CSS
+- Semantic HTML
+- Accessible navigation
+- Accessible buttons
+- Proper heading hierarchy
+- Keyboard accessibility
+- Alt text for all meaningful images
+- Optimized images
+- Lazy loading
+- SEO-friendly metadata
+- Descriptive page title
+- Meta description
+- Favicon or original logo icon
+- Smooth anchor navigation
+- Functional mobile navigation
+- Functional contact form UI
+- No console errors
+- No broken links
+- No unused components
+- No unnecessary dependencies
+- No horizontal overflow
+
+Do not leave unfinished features, TODOs, blank sections, or incomplete visual components.
+
+---
+
+## 22. SEO & PROFESSIONAL FINISH
+
+Set the website metadata:
+
+Page title:
+
+"Aurelle Studio | Thoughtful Interior Design"
+
+Meta description:
+
+"Discover timeless, thoughtful interiors by Aurelle Studio. Residential design, commercial spaces, kitchens, and bespoke interior planning."
+
+Use:
+
+- Semantic H1, H2, H3 headings
+- Descriptive alt attributes
+- Proper page metadata
+- SEO-friendly section titles
+- Clean URL structure if multiple pages are created
+
+Ensure the website is ready for deployment and hosting.
+
+---
+
+## 23. FINAL QUALITY STANDARD
+
+The final website should resemble the work of a professional luxury interior design agency with a strong creative direction.
+
+It must have:
+
+- A visually stunning first impression
+- High-quality generated or sourced interior photography
+- A premium neutral color system
+- Editorial typography
+- Excellent spacing
+- Beautiful asymmetric layouts
+- Clean navigation
+- Meaningful content
+- Strong conversion paths
+- Elegant animations
+- Fully responsive behavior
+- A polished contact form
+- A premium footer
+- Consistent visual language from top to bottom
+
+Do not stop after creating the hero section.
+
+Do not produce a basic template with generic cards.
+
+Do not use placeholder images.
+
+Do not create empty sections.
+
+Do not sacrifice visual quality for simplicity.
+
+Build the complete website, implement all sections, ensure every component works, and polish the final result until it feels like a premium, client-ready interior design website that could confidently be presented to a real business owner and deployed to production.
+
+**Final goal: create an exceptional, original luxury interior design website with the same warm architectural elegance and visual sophistication as the reference, but with its own unique identity, content, design execution, and premium user experience.**

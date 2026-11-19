@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-ivory: #F5F2EC;
+  --color-cream: #EAE4DA;
+  --color-beige: #D6C8B7;
+  --color-sand: #C2AE98;
+  --color-taupe: #A69783;
+  --color-warm-gray: #645D55;
+  --color-charcoal: #1C1B19;
+  --color-espresso: #302922;
+  --color-bronze: #A58A62;
+  --color-bronze-text: #856C47;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #F5F2EC;
+    color: #1C1B19;
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}
+
+/* Refined motion reveal primitives respecting reduced-motion */
+.reveal-section {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 650ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 650ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  .reveal-section {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
